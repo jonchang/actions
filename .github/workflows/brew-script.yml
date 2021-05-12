@@ -15,7 +15,7 @@ jobs:
       FILENAME: ".revision"
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v2.3.4
 
       - name: Script
         uses: ./brew-script/
